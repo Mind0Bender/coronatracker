@@ -1,0 +1,74 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation-duration: 300ms;
+  transition-duration: 300ms;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.trans {
+  height: 10vh;
+  background-color: transparent;
+}
+.front {
+  border: 1px;
+  border-style: outset;
+  border-color: rgba(170, 170, 170, 0.445);
+  box-shadow: 1px 1px 15px #aaa;
+  height: 5vh;
+  background-color: #fff;
+}
+.brand {
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 5px;
+}
+.item {
+  text-decoration: none;
+  color: #000;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  width: 90%;
+  text-align: center;
+}
+.close {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+  width: 90%;
+  text-align: center;
+}
+.close:hover {
+  background-color: #ddd;
+}
+.item:hover {
+  background-color: rgba(255, 0, 0, 0.335);
+}
+.hamstick {
+  background-color: black;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 3px 15px;
+}
+.mobMenu {
+  position: fixed;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+}
+.hide {
+  display: none;
+}
